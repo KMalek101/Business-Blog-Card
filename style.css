@@ -1,0 +1,97 @@
+body{
+    margin: 0;
+    width: 1280px;
+    height: 720px;
+    background-color: #F2F5F9;
+}
+.card{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    border-radius: 12px;
+    left: 50%;
+    transform: translate(-50%);
+    top: 124px;
+    width: 418px;
+    background-color: white;
+}
+.overlay{
+    position: relative;
+}
+.hero-img{
+    position: relative;
+    width: 418px;
+    height: 280px;
+    border-radius: 12px;
+}
+svg{
+    position: absolute;
+    z-index: 1;
+    bottom: 3px;
+}
+.title{
+    margin: 0;
+    margin-left: 32px;
+    margin-right: 32px;
+    margin-bottom: 12px;
+    color: #111729;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+}
+.description{
+    margin: 0;
+    margin-left: 32px;
+    margin-right: 32px;
+    margin-bottom: 24px;
+    color: #677489;
+    font-family: "Lato", sans-serif;
+}
+.line{
+    border-top: 1px solid #F2F5F9;
+    width: 100%;
+}
+.tag{
+    display: flex;
+    flex-direction: row;
+    width: max-content;
+    margin-left: 32px;
+    margin-right: 32px;
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+.tag-names{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    margin-left: 12px;
+    font-family: "Lato", sans-serif;
+    font-size: 16px;
+}
+h2{
+    margin: 0;
+    color: #111729;
+}
+.tag-description{
+    margin: 0;
+    color: #677489;
+}
+.avatar{
+    position: relative;
+    background-color: #F2F5F9;
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+    align-items: center;
+    justify-content: center;
+}
+.avatar-img{
+    position: absolute;
+    border-radius: 50%;
+    width: 36px;
+    height: 36px;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    left: 50%;
+}
